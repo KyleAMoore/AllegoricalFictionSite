@@ -108,22 +108,20 @@ body{
 .timeline ul li .cover
 {
   position:absolute;
-  top:150px;
   color:#000;
 }
 .timeline ul li .cover a img{
-  width: auto;
-  height: auto;
-  max-height: 150px;
-  max-height: 150px;
+  max-height: 250px;
+  max-width: 300px;
+  border-radius: 10px;
 }
 .timeline ul li:nth-child(odd) .cover
 {
-  right:-175px;
+  left:700px;
 }
 .timeline ul li:nth-child(even) .cover
 {
-  right:525px;
+  right:700px;
 }
 .timeline ul li h2{
   padding:0;
@@ -141,6 +139,7 @@ body{
   margin:10px 0 0;
   padding:0;
   color:#fff;
+  padding-bottom:20px;
 }
 .timeline ul li .time h4{
   margin:0;
@@ -154,8 +153,9 @@ body{
 .timeline ul li .content a img{
   width: auto;
   height: auto;
-  max-width: 100px;
-  max-height: 100px;
+  max-width: 150px;
+  max-height: 125px;
+  border-radius: 10px;
 }
 .timeline ul li .time
 {
